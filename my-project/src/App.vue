@@ -25,15 +25,6 @@
       shortName(missionName) {
         return missionName.split(' ')[0].toLowerCase()
       }
-    },
-    store: {
-      strict: true,
-      state: {
-        number: 2
-      },
-      mutations: {
-        updateNumber() {}
-      }
     }
   }
 </script>
